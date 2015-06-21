@@ -211,8 +211,7 @@ function bootz_comments( $comment, $args, $depth ) {
 
 
 
-        <img data-gravatar="http://www.gravatar.com/avatar/<?php echo md5( $bgauthemail ); ?>?s=40" class="load-gravatar avatar avatar-48 photo" height="40" width="40" src="<?php echo get_template_directory_uri(); ?>/library/images/nothing.gif" />
-
+       <?php echo get_avatar( $comment, 40 ); ?>
 
 
         <?php // end custom gravatar call ?>
@@ -284,5 +283,12 @@ function bootz_comments( $comment, $args, $depth ) {
 
 
 } // don't remove this bracket!
+
+function disable_self_ping( &$links ) {
+    foreach ( $links as $l => $link )
+        if ( 0 === strpos( $link, get_option( 'home' ) ) )
+            unset($links[$l]);
+}
+add_action( 'pre_ping', 'disable_self_ping' );
 
 ?>
