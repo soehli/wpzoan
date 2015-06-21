@@ -1,0 +1,2 @@
+[19-Apr-2015 15:53:47 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/wpzoanco/public_html/zoansite/wp-content/themes/wpzoan/index.php on line 1
+[09-Jun-2015 07:50:25 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/wpzoanco/public_html/zoansite/wp-content/themes/wpzoan/index.php on line 1
