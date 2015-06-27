@@ -177,7 +177,20 @@ while( $my_questions->have_posts() ) : $my_questions->the_post(); ?>
             
 
             <div class="col-xs-12 col-md-6">
+                 <?php if ( time() < strtotime('2015-07-01 00:00:00') ) { ?>
+                     <div class="mod">
+                <a href="http://affiliates.websharks-inc.com/3746-6-1-384.html" target="_blank"><img src="http://mediatemple.net/_img/webhosting/wordpress/themes/wp-custom-thumb-retina.jpg" alt="WordPress Hosting"></a>
 
+                    <h4 style=" padding-top:6px; text-align:center;">WordPress Hosting</h4>
+
+                 <div style="margin-top:10px; font-size:16px;">WordPress Hosting - includes Git integration, WP-CLI administration, Site Staging, DDoS &amp; intrusion protection, automated daily backups and more<b>Save 20%</b>. <br/><br/> <center>Enter coupon code <span style="font-size:18px;"><b> WPAFF20</b></span><br/><br/>
+
+                 <a href="http://mediatemple.7eer.net/c/153276/210294/2795" class="btn btn-success " target="_blank">Click Here and SAVE</a></center>
+
+                 </div>
+</div>
+            
+<?php } ?>
             
 
             </div>
@@ -332,10 +345,21 @@ while( $my_questions->have_posts() ) : $my_questions->the_post(); ?>
 
             
 
-            <div class="col-xs-12 col-md-6">
+             <div class="col-xs-12 col-md-6">
+			  <?php if ( time() < strtotime('2015-07-01 00:00:00') ) { ?>
+                     <div class="mod">
+                <a href="http://affiliates.websharks-inc.com/3746-6-1-384.html" target="_blank"><img src="http://mediatemple.net/_img/webhosting/wordpress/themes/wp-custom-thumb-retina.jpg" alt="WordPress Hosting"></a>
 
+                    <h4 style=" padding-top:6px; text-align:center;">WordPress Hosting</h4>
+
+                 <div style="margin-top:10px; font-size:16px;">WordPress Hosting - includes Git integration, WP-CLI administration, Site Staging, DDoS &amp; intrusion protection, automated daily backups and more<b>Save 20%</b>. <br/><br/> <center>Enter coupon code <span style="font-size:18px;"><b> WPAFF20</b></span><br/><br/>
+
+                 <a href="http://mediatemple.7eer.net/c/153276/210294/2795" class="btn btn-success " target="_blank">Click Here and SAVE</a></center>
+
+                 </div>
+</div>
             
-
+<?php } ?>
             </div>
 
             

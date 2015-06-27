@@ -180,7 +180,7 @@ if ((S2MEMBER_CURRENT_USER_ACCESS_LEVEL >= 1) || is_page('newsletter-signup')) {
 //hide email 
 jQuery(document).ready(function($) {
 $('#noty_center_layout_container').hide();
-$('#noty_center_layout_container').delay(7000).fadeIn(500);
+$('#noty_center_layout_container').delay(12000).fadeIn(500);
 });
 </script>
  <div class="email-lead">

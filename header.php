@@ -231,12 +231,12 @@
 
 
 	<body <?php body_class(); ?>>
-    <?php if ( time() < strtotime('2015-05-16 00:00:00') ) { ?>
+    <?php if ( time() < strtotime('2015-07-01 00:00:00') ) { ?>
     <div class="rim">
 <div class="container">
   <div class="row">
         <div class="col-xs-12">
-       SAVE ON PREMIUM WORDPRESS THEMES : : Get Premium WordPress Themes for Under $20!&nbsp;&nbsp;  <a style="color:#fff;" href="<?php echo esc_url( home_url( '/save-on-wordpress-premium-themes/' ) ); ?>" title="Save on Premium WordPress Themes, ends May 15th">CLICK HERE</a>
+       SAVE ON WORDPRESS HOSTING : : Get 20% OFF Annual WordPress Hosting &nbsp;&nbsp;  <a style="color:#fff;" href="<?php echo esc_url( home_url( '/wpzoan-com-membership-options/' ) ); ?>" title="Get 20% OFF Annual WordPress Hosting">LOGIN or SIGN UP to GET CODE</a>
         </div>
   </div>
 </div>
